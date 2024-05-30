@@ -1,6 +1,8 @@
+import java.util.Scanner;
 class SequentialIncrement{
     public static void main(String [] args){
-        int n = 8;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int output = 1;
         for(int i = 0; i < n; i++){
              for(int j = 0; j < i; j++){
